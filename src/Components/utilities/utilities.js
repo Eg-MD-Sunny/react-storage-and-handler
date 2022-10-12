@@ -10,5 +10,10 @@ const devide = (first,second) => {
     return first / second;
 }
 
-export { add, multiply, devide };
+const subtract = (first,second) => {
+    return first - second;
+}
+
+
+export { add, multiply, devide, subtract };
 
