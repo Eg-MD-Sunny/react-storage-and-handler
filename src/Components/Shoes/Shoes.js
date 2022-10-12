@@ -3,8 +3,8 @@ import { add, multiply } from '../utilities/utilities';
 
 
 const Shoes = () => {
-    const first = 13;
-    const second = 11;
+    const first = 10;
+    const second = 5;
     const result = multiply(first,second)
     const sum = add(first,second);
     return (
