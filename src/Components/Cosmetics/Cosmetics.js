@@ -13,6 +13,7 @@ const Cosmetics = () => {
             <h1>Hellow to my cosmetics store</h1>
             <p>Total:{total} and Result:{result}</p>
             <p>Difference:{sub}</p>
+            
         </div>
     );
 };

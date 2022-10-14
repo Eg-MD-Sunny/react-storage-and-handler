@@ -1,12 +1,12 @@
 import './App.css';
-import Cosmetics from './Components/Cosmetics/Cosmetics';
-import Shoes from './Components/Shoes/Shoes';
+import Cosmetic from './Components/Cosmetic/Cosmetic';
 
 function App() {
   return (
     <div className="App">
-		<Cosmetics></Cosmetics>
-		<Shoes></Shoes>
+		{/* <Cosmetics></Cosmetics>
+		<Shoes></Shoes> */}
+		<Cosmetic></Cosmetic>
     </div>
   );
 }
