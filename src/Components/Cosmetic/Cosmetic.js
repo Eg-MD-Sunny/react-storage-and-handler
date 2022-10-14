@@ -13,7 +13,10 @@ const Cosmetic = () => {
         <div>
             <h1>Welcome to my cosmetic store</h1>
             {
-                cosmetics.map(cosmetic => <Showdata></Showdata>)
+                cosmetics.map(cosmetic => <Showdata 
+                                           key={cosmetic.id}
+                                           cosmetic={cosmetic} 
+                                          ></Showdata>)
             }
         </div>
     );
