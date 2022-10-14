@@ -1,4 +1,5 @@
 import React from 'react';
+import Showdata from '../Showdata/Showdata';
 
 const Cosmetic = () => {
     const cosmetics = [
@@ -12,7 +13,7 @@ const Cosmetic = () => {
         <div>
             <h1>Welcome to my cosmetic store</h1>
             {
-                cosmetics.map(cosmetic => console.log(cosmetic))
+                cosmetics.map(cosmetic => <Showdata></Showdata>)
             }
         </div>
     );
