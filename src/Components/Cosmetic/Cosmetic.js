@@ -56,7 +56,7 @@ const Cosmetic = () => {
             <h1>Welcome to my cosmetic store</h1>
             {
                 cosmetics.map(cosmetic => <Showdata 
-                                           key={cosmetic.id}
+                                           key={cosmetic._id}
                                            cosmetic={cosmetic} 
                                           ></Showdata>)
             }
