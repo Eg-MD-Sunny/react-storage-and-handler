@@ -11,7 +11,7 @@ const Showdata = (props) => {
             <h2>Buy This: {name}</h2>
             <p>Only For: ${price}</p>
             <p><small>It has id: {_id}</small></p>
-            <button onClick={addToCart}>Add to Cart</button>
+            <button onClick={addToCart(_id)}>Add to Cart</button>
         </div>
     );
 };
