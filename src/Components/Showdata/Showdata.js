@@ -3,8 +3,8 @@ import './Showdata.css';
 
 const Showdata = (props) => {
     const {name,price,_id} = props.cosmetic;
-    const addToCart = () =>{
-        console.log('item added')
+    const addToCart = (_id) =>{
+        console.log('item added',_id)
     }
     return (
         <div className="product">
