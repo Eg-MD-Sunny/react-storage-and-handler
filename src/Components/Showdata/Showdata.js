@@ -1,12 +1,16 @@
 import React from 'react';
+import { addTodb } from '../utilities/fakedb';
 import './Showdata.css';
 
 const Showdata = (props) => {
     const {name,price,_id} = props.cosmetic;
     const addToCart = (_id) =>{
-        console.log('item added',_id)
+        // console.log('item added',_id)
+        // localStorage.setItem(_id,1)
+      
+        addTodb(_id);
     }
-    const addToCartWithParam = ()=>addToCart(_id);
+    // const addToCartWithParam = ()=>addToCart(_id);
 
     return (
         <div className="product">
