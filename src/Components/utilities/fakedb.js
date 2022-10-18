@@ -5,7 +5,7 @@ const addTodb = _id =>{
     //Get the shopping Cart
     const storedCart = localStorage.getItem('shopping-cart');
     if(storedCart){
-        console.log(storedCart);
+        shoppingCart = JSON.parse(storedCart);
     }else{
         shoppingCart = {};
     }
