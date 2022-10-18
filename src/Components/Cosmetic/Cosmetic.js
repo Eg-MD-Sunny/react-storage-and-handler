@@ -6,8 +6,7 @@ const Cosmetic = () => {
     //     {id:1, name: 'Alta', price:100},
     //     {id:2, name: 'Palis', price:200},
     //     {id:3, name: 'Malis', price:300},
-    //     {id:4, name: 'Balis', price:400},
-    //     {id:5, name: 'Nalis', price:500},
+    //     {id:4, name: 'Balis', price:400}
     // ]
 
     // const cosmetics = [
