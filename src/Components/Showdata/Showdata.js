@@ -14,7 +14,8 @@ const Showdata = (props) => {
 
 
     const revomeFromCart = _id =>{
-        console.log('Removing', _id);
+         console.log('Removing', _id);
+        // removeFromDb();
     }
 
     return (
@@ -23,7 +24,7 @@ const Showdata = (props) => {
             <p>Only For: ${price}</p>
             <p><small>It has id: {_id}</small></p>
             <button onClick={()=>addToCart(_id)}>Add to Cart</button>
-            <button onClick={()=>revomeFromCart(_id)}>Add to Cart</button>
+            <button onClick={()=>revomeFromCart(_id)}>Remove</button>
             {/* <button onClick={()=>addToCart(_id)} style={{Margin:'15px'}}>Add to Cart: shortcut</button> */}
             {/* <button onClick={()=>addToCart(_id)}>Purchase</button> */}
         </div>

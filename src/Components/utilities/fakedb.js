@@ -23,5 +23,11 @@ const addTodb = _id =>{
     }
     localStorage.setItem('shopping-cart',JSON.stringify(shoppingCart))
 }
-export { addTodb };
+
+
+
+const removeFromDb = _id =>{
+    console.log('Inside Fake DB', _id);
+}
+export { addTodb, removeFromDb };
 
