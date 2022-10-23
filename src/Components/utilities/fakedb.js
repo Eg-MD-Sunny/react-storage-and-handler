@@ -32,7 +32,9 @@ const removeFromDb = _id =>{
     if(storedCart){
         const shoppingCart = JSON.parse(storedCart)
         if(_id in shoppingCart){
-            console.log('Exists In the Cart')
+            // console.log('Exists In the Cart')
+            delete shoppingCart[_id];
+            localStorage.setItem('shopping-cart',JSON.stringify(shoppingCart))
         }
     }
 }
