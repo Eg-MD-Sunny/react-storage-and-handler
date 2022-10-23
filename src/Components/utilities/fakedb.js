@@ -2,7 +2,7 @@
 const addTodb = _id =>{
     let shoppingCart;
 
-    //Get the shopping Cart
+    //Get the shopping Cart From Local Storage
     const storedCart = localStorage.getItem('shopping-cart');
     if(storedCart){
         shoppingCart = JSON.parse(storedCart);
