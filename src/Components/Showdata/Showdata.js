@@ -12,12 +12,18 @@ const Showdata = (props) => {
     }
     // const addToCartWithParam = ()=>addToCart(_id);
 
+
+    const revomeFromCart = _id =>{
+        console.log('Removing', _id);
+    }
+
     return (
         <div className="product">
             <h2>Buy This: {name}</h2>
             <p>Only For: ${price}</p>
             <p><small>It has id: {_id}</small></p>
             <button onClick={()=>addToCart(_id)}>Add to Cart</button>
+            <button onClick={()=>revomeFromCart(_id)}>Add to Cart</button>
             {/* <button onClick={()=>addToCart(_id)} style={{Margin:'15px'}}>Add to Cart: shortcut</button> */}
             {/* <button onClick={()=>addToCart(_id)}>Purchase</button> */}
         </div>
