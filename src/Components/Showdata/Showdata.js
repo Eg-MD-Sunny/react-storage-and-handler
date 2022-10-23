@@ -1,5 +1,5 @@
 import React from 'react';
-import { addTodb } from '../utilities/fakedb';
+import { addTodb, removeFromDb } from '../utilities/fakedb';
 import './Showdata.css';
 
 const Showdata = (props) => {
@@ -14,8 +14,8 @@ const Showdata = (props) => {
 
 
     const revomeFromCart = _id =>{
-         console.log('Removing', _id);
-        // removeFromDb();
+        //  console.log('Removing', _id);
+         removeFromDb(_id);
     }
 
     return (
